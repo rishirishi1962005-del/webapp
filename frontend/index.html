@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LAVANYA & CO  · Brain Tumor Detection</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- Leaflet for maps -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+  <!-- Background grid -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow top-left"></div>
+  <div class="bg-glow bottom-right"></div>
+
+  <!-- ── HEADER ─────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="18" stroke="url(#g1)" stroke-width="2"/>
+            <path d="M12 20 Q20 10 28 20 Q20 30 12 20Z" fill="url(#g1)" opacity="0.8"/>
+            <circle cx="20" cy="20" r="3" fill="white"/>
+            <defs>
+              <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#00D4FF"/>
+                <stop offset="100%" stop-color="#7B2FBE"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Lavanya & Co</span>
+          <span class="logo-tagline">Brain Tumor Detection System</span>
+        </div>
+      </div>
+      <div class="header-badge">
+        <span class="badge-dot"></span>
+        <span>YOLOv8 Powered</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── MAIN CONTENT ────────────────────────────────── -->
+  <main class="container">
+
+    <!-- Step indicators -->
+    <div class="steps-bar">
+      <div class="step active" id="step-1">
+        <div class="step-num">01</div>
+        <div class="step-label">Upload MRI</div>
+      </div>
+      <div class="step-line"></div>
+      <div class="step" id="step-2">
+        <div class="step-num">02</div>
+        <div class="step-label">Analysis</div>
+      </div>
+      <div class="step-line"></div>
+      <div class="step" id="step-3">
+        <div class="step-num">03</div>
+        <div class="step-label">Hospitals</div>
+      </div>
+      <div class="step-line"></div>
+      <div class="step" id="step-4">
+        <div class="step-num">04</div>
+        <div class="step-label">Map View</div>
+      </div>
+    </div>
+
+    <!-- ── SECTION 1: UPLOAD ──────────────────────────── -->
+    <section class="card upload-section" id="section-upload">
+      <div class="card-header">
+        <div class="card-icon upload-icon">↑</div>
+        <div>
+          <h2>Upload MRI Scan</h2>
+          <p class="card-subtitle">Support JPEG, PNG formats · Max 10MB</p>
+        </div>
+      </div>
+
+      <div class="upload-zone" id="dropZone">
+        <div class="upload-icon-large">
+          <svg viewBox="0 0 64 64" fill="none">
+            <rect x="8" y="16" width="48" height="36" rx="4" stroke="currentColor" stroke-width="2"/>
+            <circle cx="32" cy="32" r="10" stroke="currentColor" stroke-width="2"/>
+            <circle cx="32" cy="32" r="5" fill="currentColor" opacity="0.3"/>
+            <path d="M24 16V12a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v4" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </div>
+        <p class="upload-title">Drag & drop your MRI scan here</p>
+        <p class="upload-sub">or</p>
+        <label class="btn-upload" for="fileInput">Browse Files</label>
+        <input type="file" id="fileInput" accept="image/jpeg,image/png,image/jpg,image/webp" hidden />
+      </div>
+
+      <div class="preview-area" id="previewArea" style="display:none;">
+        <div class="preview-img-wrap">
+          <img id="previewImg" src="" alt="MRI Preview" />
+          <button class="btn-remove" id="removeBtn" title="Remove image">✕</button>
+        </div>
+        <div class="preview-info" id="previewInfo"></div>
+      </div>
+
+      <button class="btn-primary" id="analyzeBtn" disabled>
+        <span class="btn-text">Analyze MRI Scan</span>
+        <span class="btn-loader" style="display:none;">
+          <svg class="spin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" fill="none" stroke-dasharray="60" stroke-dashoffset="20"/></svg>
+          Analyzing...
+        </span>
+      </button>
+    </section>
+
+    <!-- ── SECTION 2: RESULT ──────────────────────────── -->
+    <section class="card result-section hidden" id="section-result">
+      <div class="card-header">
+        <div class="card-icon result-icon">⬡</div>
+        <div>
+          <h2>Detection Result</h2>
+          <p class="card-subtitle">AI-powered tumor classification</p>
+        </div>
+      </div>
+
+      <div class="result-grid">
+        <div class="result-image-panel">
+          <div class="result-img-wrap">
+            <img id="resultImg" src="" alt="Detection Result" />
+            <div class="result-img-label">Annotated Output</div>
+          </div>
+        </div>
+        <div class="result-data-panel">
+          <div class="result-class-card" id="resultClassCard">
+            <div class="result-class-label">Detected Class</div>
+            <div class="result-class-value" id="resultClass">—</div>
+          </div>
+          <div class="confidence-wrap">
+            <div class="confidence-label">Confidence Score</div>
+            <div class="confidence-bar-bg">
+              <div class="confidence-bar-fill" id="confidenceBar" style="width:0%"></div>
+            </div>
+            <div class="confidence-pct" id="confidencePct">0%</div>
+          </div>
+          <div class="result-info-box" id="resultInfoBox"></div>
+          <div class="demo-note" id="demoNote" style="display:none;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SECTION 3: CITY INPUT ──────────────────────── -->
+    <section class="card city-section hidden" id="section-city">
+      <div class="card-header">
+        <div class="card-icon city-icon">◎</div>
+        <div>
+          <h2>Find Nearby Hospitals</h2>
+          <p class="card-subtitle">Enter your city in Tamil Nadu</p>
+        </div>
+      </div>
+
+      <div class="city-input-wrap">
+        <div class="input-field-wrap">
+          <input type="text" id="cityInput" class="input-city" 
+                 placeholder="e.g. Chennai, Coimbatore, Madurai..."
+                 list="cityList" autocomplete="off" />
+          <datalist id="cityList"></datalist>
+          <div class="input-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+              <circle cx="12" cy="9" r="2.5"/>
+            </svg>
+          </div>
+        </div>
+        <button class="btn-primary" id="findHospitalsBtn">
+          <span>Find Hospitals</span>
+        </button>
+      </div>
+
+      <div class="quick-cities">
+        <span class="quick-label">Quick select:</span>
+        <div class="quick-tags" id="quickTags"></div>
+      </div>
+    </section>
+
+    <!-- ── SECTION 4: HOSPITAL LIST ──────────────────── -->
+    <section class="card hospitals-section hidden" id="section-hospitals">
+      <div class="card-header">
+        <div class="card-icon hospital-icon">✚</div>
+        <div>
+          <h2>Recommended Hospitals</h2>
+          <p class="card-subtitle" id="hospitalSubtitle">Top neurosurgery centers near you</p>
+        </div>
+      </div>
+
+      <div class="hospital-match-banner" id="matchBanner" style="display:none;"></div>
+
+      <div class="hospital-list" id="hospitalList"></div>
+    </section>
+
+    <!-- ── SECTION 5: MAP ─────────────────────────────── -->
+    <section class="card map-section hidden" id="section-map">
+      <div class="card-header">
+        <div class="card-icon map-icon">⬡</div>
+        <div>
+          <h2>Tamil Nadu Map View</h2>
+          <p class="card-subtitle">Hospital locations on the map</p>
+        </div>
+      </div>
+
+      <div class="map-legend">
+        <div class="legend-item"><span class="legend-dot user"></span> Your Location</div>
+        <div class="legend-item"><span class="legend-dot hospital"></span> Recommended Hospital</div>
+      </div>
+
+      <div id="map"></div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────────────── -->
+  <footer class="site-footer">
+    <p>⚕️ Lavanya & Co · For clinical use by licensed professionals only · Not a substitute for medical diagnosis</p>
+  </footer>
+
+  <!-- ── TOAST ──────────────────────────────────────── -->
+  <div class="toast" id="toast"></div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

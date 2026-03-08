@@ -1,0 +1,101 @@
+hospital_name,city,specialization,latitude,longitude,contact
+Namakkal Advanced Hospital 1,Namakkal,Neurosurgery & Brain Tumor Care,11.574462,76.796761,+91-9821310291
+Karur Advanced Hospital 2,Karur,Neurosurgery & Brain Tumor Care,9.495406,77.999708,+91-9769731582
+Kanyakumari Advanced Hospital 3,Kanyakumari,Neurosurgery & Brain Tumor Care,11.993137,80.173664,+91-9634141538
+Trichy Advanced Hospital 4,Trichy,Neurosurgery & Brain Tumor Care,11.534962,80.46251,+91-9792950508
+Namakkal Advanced Hospital 5,Namakkal,Neurosurgery & Brain Tumor Care,13.332398,77.399168,+91-9849992556
+Coimbatore Advanced Hospital 6,Coimbatore,Neurosurgery & Brain Tumor Care,9.002716,78.015677,+91-9531469375
+Tiruppur Advanced Hospital 7,Tiruppur,Neurosurgery & Brain Tumor Care,13.488103,76.358341,+91-9168973456
+Sivaganga Advanced Hospital 8,Sivaganga,Neurosurgery & Brain Tumor Care,10.545252,80.267074,+91-9487708663
+Thanjavur Advanced Hospital 9,Thanjavur,Neurosurgery & Brain Tumor Care,11.812742,80.062889,+91-9307202894
+Thanjavur Advanced Hospital 10,Thanjavur,Neurosurgery & Brain Tumor Care,13.063847,77.077888,+91-9122815398
+Chennai Advanced Hospital 11,Chennai,Neurosurgery & Brain Tumor Care,8.199912,79.043073,+91-9748689305
+Coimbatore Advanced Hospital 12,Coimbatore,Neurosurgery & Brain Tumor Care,13.401113,76.666847,+91-9666161401
+Thanjavur Advanced Hospital 13,Thanjavur,Neurosurgery & Brain Tumor Care,10.090866,76.47505,+91-9792674321
+Kanyakumari Advanced Hospital 14,Kanyakumari,Neurosurgery & Brain Tumor Care,12.338174,77.730326,+91-9741616002
+Krishnagiri Advanced Hospital 15,Krishnagiri,Neurosurgery & Brain Tumor Care,11.040748,80.419061,+91-9652940160
+Madurai Advanced Hospital 16,Madurai,Neurosurgery & Brain Tumor Care,11.763588,80.11258,+91-9627372183
+Virudhunagar Advanced Hospital 17,Virudhunagar,Neurosurgery & Brain Tumor Care,10.60208,76.538322,+91-9581627392
+Krishnagiri Advanced Hospital 18,Krishnagiri,Neurosurgery & Brain Tumor Care,10.267521,77.741569,+91-9292946844
+Nagapattinam Advanced Hospital 19,Nagapattinam,Neurosurgery & Brain Tumor Care,11.311671,78.804999,+91-9995822349
+Madurai Advanced Hospital 20,Madurai,Neurosurgery & Brain Tumor Care,11.989576,79.004919,+91-9641122228
+Nagapattinam Advanced Hospital 21,Nagapattinam,Neurosurgery & Brain Tumor Care,9.027575,78.093751,+91-9353106213
+Tirunelveli Advanced Hospital 22,Tirunelveli,Neurosurgery & Brain Tumor Care,12.588043,77.915851,+91-9952446116
+Sivaganga Advanced Hospital 23,Sivaganga,Neurosurgery & Brain Tumor Care,9.864072,77.836842,+91-9575457597
+Krishnagiri Advanced Hospital 24,Krishnagiri,Neurosurgery & Brain Tumor Care,10.777833,77.918339,+91-9406871707
+Kanyakumari Advanced Hospital 25,Kanyakumari,Neurosurgery & Brain Tumor Care,10.588565,77.117862,+91-9814596992
+Chennai Advanced Hospital 26,Chennai,Neurosurgery & Brain Tumor Care,8.779775,77.119582,+91-9459130142
+Sivaganga Advanced Hospital 27,Sivaganga,Neurosurgery & Brain Tumor Care,8.024182,78.050098,+91-9826478696
+Tirunelveli Advanced Hospital 28,Tirunelveli,Neurosurgery & Brain Tumor Care,8.718966,79.632989,+91-9612527134
+Chennai Advanced Hospital 29,Chennai,Neurosurgery & Brain Tumor Care,9.247387,79.08357,+91-9849422970
+Kanyakumari Advanced Hospital 30,Kanyakumari,Neurosurgery & Brain Tumor Care,13.415434,78.86873,+91-9798582786
+Thanjavur Advanced Hospital 31,Thanjavur,Neurosurgery & Brain Tumor Care,9.087336,79.229736,+91-9492286562
+Sivaganga Advanced Hospital 32,Sivaganga,Neurosurgery & Brain Tumor Care,9.476339,78.339829,+91-9412568962
+Trichy Advanced Hospital 33,Trichy,Neurosurgery & Brain Tumor Care,11.7866,77.059128,+91-9942630288
+Vellore Advanced Hospital 34,Vellore,Neurosurgery & Brain Tumor Care,8.241306,77.311902,+91-9875121929
+Salem Advanced Hospital 35,Salem,Neurosurgery & Brain Tumor Care,8.439341,77.63293,+91-9119453122
+Erode Advanced Hospital 36,Erode,Neurosurgery & Brain Tumor Care,12.482952,77.05438,+91-9458612000
+Virudhunagar Advanced Hospital 37,Virudhunagar,Neurosurgery & Brain Tumor Care,9.248979,78.024512,+91-9577247201
+Dindigul Advanced Hospital 38,Dindigul,Neurosurgery & Brain Tumor Care,11.103317,76.313468,+91-9362726425
+Kanyakumari Advanced Hospital 39,Kanyakumari,Neurosurgery & Brain Tumor Care,12.806746,80.007913,+91-9361797709
+Chennai Advanced Hospital 40,Chennai,Neurosurgery & Brain Tumor Care,13.246481,79.103894,+91-9304675731
+Tiruppur Advanced Hospital 41,Tiruppur,Neurosurgery & Brain Tumor Care,11.830904,79.421693,+91-9829069380
+Chennai Advanced Hospital 42,Chennai,Neurosurgery & Brain Tumor Care,10.164798,78.772417,+91-9491438003
+Dharmapuri Advanced Hospital 43,Dharmapuri,Neurosurgery & Brain Tumor Care,10.099311,80.439379,+91-9238260916
+Cuddalore Advanced Hospital 44,Cuddalore,Neurosurgery & Brain Tumor Care,10.987771,79.718735,+91-9969077621
+Coimbatore Advanced Hospital 45,Coimbatore,Neurosurgery & Brain Tumor Care,9.521045,80.428033,+91-9983231927
+Sivaganga Advanced Hospital 46,Sivaganga,Neurosurgery & Brain Tumor Care,10.719134,79.097827,+91-9639532992
+Vellore Advanced Hospital 47,Vellore,Neurosurgery & Brain Tumor Care,12.501581,76.747812,+91-9311528178
+Coimbatore Advanced Hospital 48,Coimbatore,Neurosurgery & Brain Tumor Care,8.968773,80.448338,+91-9521222724
+Krishnagiri Advanced Hospital 49,Krishnagiri,Neurosurgery & Brain Tumor Care,8.693652,79.436849,+91-9755823784
+Kanyakumari Advanced Hospital 50,Kanyakumari,Neurosurgery & Brain Tumor Care,10.962263,77.470443,+91-9287565423
+Salem Advanced Hospital 51,Salem,Neurosurgery & Brain Tumor Care,11.332681,77.336502,+91-9483747047
+Salem Advanced Hospital 52,Salem,Neurosurgery & Brain Tumor Care,10.628288,77.840728,+91-9648338818
+Thanjavur Advanced Hospital 53,Thanjavur,Neurosurgery & Brain Tumor Care,11.835871,78.996886,+91-9690235421
+Thanjavur Advanced Hospital 54,Thanjavur,Neurosurgery & Brain Tumor Care,9.700038,78.383377,+91-9381395943
+Vellore Advanced Hospital 55,Vellore,Neurosurgery & Brain Tumor Care,9.046096,76.668542,+91-9500978581
+Trichy Advanced Hospital 56,Trichy,Neurosurgery & Brain Tumor Care,11.793687,79.848809,+91-9299494009
+Kanyakumari Advanced Hospital 57,Kanyakumari,Neurosurgery & Brain Tumor Care,11.24772,76.072532,+91-9483418017
+Sivaganga Advanced Hospital 58,Sivaganga,Neurosurgery & Brain Tumor Care,12.437706,76.515206,+91-9799328811
+Coimbatore Advanced Hospital 59,Coimbatore,Neurosurgery & Brain Tumor Care,10.999183,79.555435,+91-9885554279
+Vellore Advanced Hospital 60,Vellore,Neurosurgery & Brain Tumor Care,12.631954,80.29292,+91-9891012905
+Karur Advanced Hospital 61,Karur,Multi-Speciality (MRI/CT Available),8.221206,80.171643,+91-9433668109
+Vellore Advanced Hospital 62,Vellore,Multi-Speciality (MRI/CT Available),10.934355,77.278904,+91-9121155051
+Karur Advanced Hospital 63,Karur,Multi-Speciality (MRI/CT Available),12.669047,79.619951,+91-9174878965
+Erode Advanced Hospital 64,Erode,Multi-Speciality (MRI/CT Available),13.178351,76.118457,+91-9625627592
+Thanjavur Advanced Hospital 65,Thanjavur,Multi-Speciality (MRI/CT Available),13.417288,78.502682,+91-9578190449
+Thanjavur Advanced Hospital 66,Thanjavur,Multi-Speciality (MRI/CT Available),8.480944,78.484484,+91-9788674167
+Cuddalore Advanced Hospital 67,Cuddalore,Multi-Speciality (MRI/CT Available),11.474287,79.303402,+91-9217322942
+Karur Advanced Hospital 68,Karur,Multi-Speciality (MRI/CT Available),12.10276,77.721916,+91-9452466276
+Thanjavur Advanced Hospital 69,Thanjavur,Multi-Speciality (MRI/CT Available),8.395922,79.537287,+91-9103936908
+Karur Advanced Hospital 70,Karur,Multi-Speciality (MRI/CT Available),11.265846,78.155717,+91-9356757995
+Tirunelveli Advanced Hospital 71,Tirunelveli,Multi-Speciality (MRI/CT Available),13.349033,79.74121,+91-9704615393
+Tirunelveli Advanced Hospital 72,Tirunelveli,Multi-Speciality (MRI/CT Available),8.750364,77.535978,+91-9522394432
+Namakkal Advanced Hospital 73,Namakkal,Multi-Speciality (MRI/CT Available),9.138849,79.717939,+91-9435291380
+Thanjavur Advanced Hospital 74,Thanjavur,Multi-Speciality (MRI/CT Available),8.834753,76.474688,+91-9808089063
+Namakkal Advanced Hospital 75,Namakkal,Multi-Speciality (MRI/CT Available),12.502104,79.622235,+91-9535904852
+Chennai Advanced Hospital 76,Chennai,Multi-Speciality (MRI/CT Available),12.320208,76.484922,+91-9657561359
+Chennai Advanced Hospital 77,Chennai,Multi-Speciality (MRI/CT Available),8.539069,78.155825,+91-9969132931
+Sivaganga Advanced Hospital 78,Sivaganga,Multi-Speciality (MRI/CT Available),10.566483,79.827992,+91-9598469887
+Virudhunagar Advanced Hospital 79,Virudhunagar,Multi-Speciality (MRI/CT Available),9.568403,76.172699,+91-9615513771
+Madurai Advanced Hospital 80,Madurai,Multi-Speciality (MRI/CT Available),8.277146,77.582512,+91-9573005941
+Thanjavur Advanced Hospital 81,Thanjavur,Multi-Speciality (MRI/CT Available),10.664984,79.210801,+91-9289429458
+Chennai Advanced Hospital 82,Chennai,Multi-Speciality (MRI/CT Available),8.009594,76.348737,+91-9654630123
+Tirunelveli Advanced Hospital 83,Tirunelveli,Multi-Speciality (MRI/CT Available),8.264976,79.193898,+91-9136347496
+Namakkal Advanced Hospital 84,Namakkal,Multi-Speciality (MRI/CT Available),11.266739,77.845314,+91-9153388974
+Dindigul Advanced Hospital 85,Dindigul,Multi-Speciality (MRI/CT Available),12.378029,79.968253,+91-9284938643
+Virudhunagar Advanced Hospital 86,Virudhunagar,Government General Hospital,10.618007,76.2373,+91-9149444163
+Virudhunagar Advanced Hospital 87,Virudhunagar,Government General Hospital,10.12232,79.650853,+91-9807985027
+Virudhunagar Advanced Hospital 88,Virudhunagar,Government General Hospital,12.87764,78.88511,+91-9712996989
+Dindigul Advanced Hospital 89,Dindigul,Government General Hospital,9.297377,77.959412,+91-9976245824
+Virudhunagar Advanced Hospital 90,Virudhunagar,Government General Hospital,13.075683,77.524029,+91-9166240647
+Chennai Advanced Hospital 91,Chennai,Government General Hospital,10.931305,76.617848,+91-9752310130
+Cuddalore Advanced Hospital 92,Cuddalore,Government General Hospital,8.889116,77.45134,+91-9436206205
+Virudhunagar Advanced Hospital 93,Virudhunagar,Government General Hospital,11.310416,77.077596,+91-9169848687
+Sivaganga Advanced Hospital 94,Sivaganga,Government General Hospital,13.039001,77.867086,+91-9401765277
+Dindigul Advanced Hospital 95,Dindigul,Government General Hospital,12.870896,78.307271,+91-9802217289
+Virudhunagar Advanced Hospital 96,Virudhunagar,Government General Hospital,12.337544,77.992895,+91-9304234057
+Tirunelveli Advanced Hospital 97,Tirunelveli,Government General Hospital,12.866511,79.823949,+91-9224221163
+Dindigul Advanced Hospital 98,Dindigul,Government General Hospital,10.140271,78.665693,+91-9745639260
+Tiruppur Advanced Hospital 99,Tiruppur,Government General Hospital,10.715241,76.322714,+91-9395080064
+Vellore Advanced Hospital 100,Vellore,Government General Hospital,10.00216,79.901514,+91-9388537855
