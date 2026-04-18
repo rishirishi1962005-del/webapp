@@ -2,87 +2,66 @@ Hospital_Name,City,Latitude,Longitude,Type,Speciality,Contact
 Apollo Hospitals,Chennai,13.0352,80.2496,Private,Neuro/Oncology,044-28290200
 Fortis Malar Hospital,Chennai,13.0104,80.2215,Private,Neuro,044-42892222
 MIOT International,Chennai,13.0215,80.1853,Private,Neuro/Oncology,044-42002288
-
 Sri Ramakrishna Hospital,Coimbatore,11.0213,76.9629,Private,Neuro,0422-4500000
 Ganga Hospital,Coimbatore,11.0183,76.9725,Private,Ortho/General,0422-2485000
 KMCH Hospital,Coimbatore,11.0400,77.0400,Private,Oncology,0422-4323800
-
 Meenakshi Mission Hospital,Madurai,9.9177,78.1481,Private,Neuro,0452-2588741
 Apollo Specialty Hospital,Madurai,9.9250,78.1200,Private,Oncology,0452-3000000
 Velammal Hospital,Madurai,9.9400,78.1000,Private,General,0452-3983000
-
 Kauvery Hospital,Trichy,10.8050,78.6856,Private,Neuro,0431-4077777
 Gitanjali Hospital,Trichy,10.7900,78.7000,Private,General,0431-2700000
 Trichy GH,Trichy,10.7950,78.6960,Government,General,0431-2200000
-
 Kauvery Hospital,Salem,11.6649,78.1463,Private,Neuro,0427-2700000
 Salem GH,Salem,11.6650,78.1500,Government,General,0427-2300000
 Shanmuga Hospital,Salem,11.6600,78.1400,Private,General,0427-2212000
-
 Shifa Hospital,Tirunelveli,8.7262,77.7500,Private,General,0462-2502383
 Tirunelveli GH,Tirunelveli,8.7130,77.7560,Government,General,0462-2570000
 Galaxy Hospital,Tirunelveli,8.7200,77.7600,Private,Neuro,0462-2400000
-
 Erode GH,Erode,11.3410,77.7172,Government,General,0424-2260000
 Lotus Hospital,Erode,11.3500,77.7200,Private,General,0424-2288888
 KMC Hospital,Erode,11.3428,77.7282,Private,General,0424-2220000
-
 Tiruppur Medical Centre,Tiruppur,11.1085,77.3411,Private,General,0421-2485454
 Tiruppur GH,Tiruppur,11.1100,77.3450,Government,General,0421-2200000
 Revathi Hospital,Tiruppur,11.1050,77.3380,Private,General,0421-2477777
-
 CMC Hospital,Vellore,12.9240,79.1350,Private,Neuro/Oncology,0416-2281000
 Vellore GH,Vellore,12.9200,79.1300,Government,General,0416-2200000
 Bethesda Hospital,Vellore,12.9300,79.1400,Private,General,0416-2222222
-
 Thoothukudi GH,Thoothukudi,8.7642,78.1348,Government,General,0461-2320000
 Sacred Heart Hospital,Thoothukudi,8.7600,78.1300,Private,General,0461-2355555
 Annai Hospital,Thoothukudi,8.7700,78.1400,Private,General,0461-2323456
-
 Dindigul GH,Dindigul,10.3624,77.9695,Government,General,0451-2420000
 City Hospital,Dindigul,10.3600,77.9700,Private,General,0451-2400000
 AR Hospital,Dindigul,10.3650,77.9680,Private,General,0451-2411111
-
 Thanjavur GH,Thanjavur,10.7870,79.1378,Government,General,04362-230000
 Raja Mirasudar Hospital,Thanjavur,10.7865,79.1370,Private,General,04362-230776
 Meenakshi Hospital,Thanjavur,10.7900,79.1400,Private,General,04362-232000
-
 Ranipet GH,Ranipet,12.9283,79.3331,Government,General,04172-270000
 Scudder Memorial Hospital,Ranipet,12.9275,79.3330,Private,General,04172-270999
 Sakthi Hospital,Ranipet,12.9300,79.3350,Private,General,04172-271111
-
 Sivakasi GH,Sivakasi,9.4533,77.7959,Government,General,04562-220000
 Sudha Hospital,Sivakasi,9.4550,77.7960,Private,General,04562-223333
 Meena Hospital,Sivakasi,9.4500,77.7900,Private,General,04562-221111
-
 Karur GH,Karur,10.9601,78.0766,Government,General,04324-260000
 Apollo Hospital,Karur,10.9600,78.0765,Private,General,04324-260001
 Sakthi Hospital,Karur,10.9650,78.0800,Private,General,04324-261111
-
 Namakkal GH,Namakkal,11.2189,78.1676,Government,General,04286-220000
 Kongu Hospital,Namakkal,11.2200,78.1700,Private,General,04286-221111
 Anbu Hospital,Namakkal,11.2150,78.1650,Private,General,04286-222222
-
 Kanchipuram GH,Kanchipuram,12.8185,79.6947,Government,General,044-27230000
 Meenakshi Hospital,Kanchipuram,12.8190,79.6940,Private,General,044-27230001
 Sai Hospital,Kanchipuram,12.8200,79.7000,Private,General,044-27230002
-
 Cuddalore GH,Cuddalore,11.7480,79.7714,Government,General,04142-230000
 Krishna Hospital,Cuddalore,11.7500,79.7700,Private,General,04142-231111
 ESI Hospital,Cuddalore,11.7450,79.7750,Government,General,04142-232222
-
 Villupuram GH,Villupuram,11.9401,79.4861,Government,General,04146-222000
 Aravind Hospital,Villupuram,11.9420,79.4850,Private,General,04146-223333
 City Care Hospital,Villupuram,11.9380,79.4880,Private,General,04146-224444
-
 Nagapattinam GH,Nagapattinam,10.7672,79.8449,Government,General,04365-242000
 Vijaya Hospital,Nagapattinam,10.7680,79.8460,Private,General,04365-243333
 Star Hospital,Nagapattinam,10.7650,79.8420,Private,General,04365-244444
-
 Krishnagiri GH,Krishnagiri,12.5266,78.2138,Government,General,04343-220000
 Sri Hospital,Krishnagiri,12.5280,78.2150,Private,General,04343-221111
 Care Hospital,Krishnagiri,12.5240,78.2100,Private,General,04343-222222
-
 Dharmapuri GH,Dharmapuri,12.1357,78.1602,Government,General,04342-260000
 Sakthi Hospital,Dharmapuri,12.1380,78.1620,Private,General,04342-261111
 Life Care Hospital,Dharmapuri,12.1340,78.1580,Private,General,04342-262222
